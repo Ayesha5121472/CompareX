@@ -29,13 +29,25 @@ class HomePage extends StatelessWidget {
                 Center(
                   child: Column(
                     children: [
+                      // Logo Added Here
+                      Container(
+                        width: 120,
+                        height: 120,
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage('images/plogo.jpg'),
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 5),
                       Container(
                         width: 150,
                         height: 150,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(16),
                           image: DecorationImage(
-                            image: AssetImage('assets/product.png'),
+                            image: AssetImage('images/map.PNG'),
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -46,7 +58,7 @@ class HomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           image: DecorationImage(
-                            image: AssetImage('assets/map_background.png'), // Add your map image here
+                            image: AssetImage('assets/map_background.png'),
                             fit: BoxFit.cover,
                           ),
                         ),

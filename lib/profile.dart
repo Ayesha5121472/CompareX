@@ -25,15 +25,15 @@ class ProfilePage extends StatelessWidget {
             children: [
               const CircleAvatar(
                 radius: 50,
-                backgroundImage: AssetImage('Images/profile.jpg'),
+                backgroundImage: AssetImage('images/profile.jpg'),
               ),
               const SizedBox(height: 10),
               const Text(
-                'John Doe',
+                'ABC ---',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               const Text(
-                'johndoe@example.com',
+                'abc@example.com',
                 style: TextStyle(fontSize: 16, color: Colors.grey),
               ),
               const SizedBox(height: 20),
